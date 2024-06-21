@@ -1,0 +1,419 @@
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 16px;
+  color: #3b3e41;
+}
+
+.navbar-brand span {
+  color: #4474f3;
+}
+
+#hero {
+  background-image: url(assets/Background-Hero.png);
+  background-size: contain;
+  height: 95vh;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.nav-item a {
+  color: #3b3e41;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.active {
+  color: #4474f3 !important;
+}
+
+.nav-item a:hover {
+  color: #4474f3;
+}
+
+nav .btn {
+  background-color: #fff;
+  color: #3b3e41;
+  border-color: #3b3e41;
+  border-radius: 30px;
+}
+
+nav .btn:hover {
+  background-color: #4474f3;
+  color: white;
+  border-color: #4474f3;
+}
+
+#hero h1 {
+  font-weight: bold;
+  font-size: 50px;
+  color: #3b3e41;
+}
+
+#hero h1 span {
+  color: #4474f3;
+}
+
+#hero p {
+  font-size: 18px;
+  font-weight: normal;
+  color: #3b3e41;
+}
+
+#hero .btn-primary {
+  font-size: 16px;
+  background-color: #4474f3;
+  color: #fff;
+  font-weight: 600;
+  border-color: #4474f3;
+  transition: 0.3s;
+  will-change: transform;
+}
+
+#hero .btn-outline-primary {
+  font-size: 16px;
+  font-weight: 600;
+  border-width: 2px;
+  background-color: #fff;
+  color: #4474f3;
+  border-color: #4474f3;
+  transition: 0.3s;
+  will-change: transform;
+}
+
+#hero .btn-primary:hover {
+  transform: scale(1.05);
+}
+
+#hero .btn-outline-primary:hover {
+  background-color: #4474f3;
+  color: #fff;
+  transform: scale(1.05);
+}
+
+.socials .btn-primary {
+  background-color: #fff !important;
+  color: #4474f3 !important;
+  border-radius: 50px;
+}
+
+.socials .d-flex a {
+  font-size: 14px !important;
+  border-bottom: 1px solid #3b3e41;
+  text-decoration: none;
+  color: #3b3e41;
+}
+
+.socials .btn-primary:hover {
+  background-color: #4474f3 !important;
+  color: #fff !important;
+}
+
+.OverMij {
+  background-color: #f6f6f6;
+}
+
+.OverMij h2 {
+  color: #3b3e41;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.OverMij span {
+  color: #4474f3;
+}
+
+.OverMij p {
+  color: #848589;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+@media (max-width: 767px) {
+  /* Apply different styles for mobile devices */
+  .navbar-brand {
+    margin: 0;
+  }
+  #hero {
+    background-image: none;
+  }
+}
+
+.Portfolio {
+  background-color: #f6f6f6;
+}
+
+.koffieexpertise {
+  background-color: #fff;
+}
+
+.Portfolio h2 {
+  font-weight: bold;
+  color: #4474f3;
+  font-size: 40px;
+}
+
+.Portfolio h3 {
+  color: #3b3e41;
+  font-weight: 600;
+  font-size: 35px;
+}
+
+.Portfolio p {
+  font-weight: 550;
+  font-size: 16px;
+  color: #3b3e41;
+}
+
+.Portfolio a {
+  color: #3b3e41;
+}
+
+.projecten h2 {
+  color: #3b3e41;
+  font-weight: bold;
+  font-size: 30px;
+}
+.projecten span {
+  color: #4474f3;
+}
+
+.projecten .btn {
+  background-color: #4474f3;
+  color: #f6f6f6;
+  border-color: #4474f3;
+  border-radius: 30px;
+}
+
+.projecten img {
+  border-radius: 20px;
+}
+.light {
+  background-color: #fff;
+}
+
+.projecten .btn-primary {
+  font-size: 16px;
+  background-color: #4474f3;
+  color: #fff;
+  font-weight: 600;
+  border-color: #4474f3;
+  transition: 0.3s;
+  will-change: transform;
+}
+
+.projecten .btn-primary:hover {
+  transform: scale(1.05);
+}
+
+.diensten h2 {
+  color: #3b3e41;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.diensten h3 {
+  color: #3b3e41;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.diensten span {
+  color: #4474f3;
+}
+
+.diensten .accordion-button {
+  color: #3b3e41;
+  font-weight: 500;
+  font-size: 35px;
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-image: url(assets/arrow.png);
+}
+.accordion-button::after {
+  background-image: url(assets/arrow.png);
+}
+
+.diensten .accordion-item {
+  margin-top: 25px;
+  border: none;
+  border-bottom: 2px solid #3b3e41;
+}
+
+.diensten .btn {
+  background: #fff;
+  border-color: #4474f3;
+  color: #4474f3;
+  border-radius: 10px;
+  transition: 0.3s;
+  will-change: transform;
+  font-weight: 600;
+  border-width: 2px;
+}
+
+.diensten .btn:hover {
+  background: #4474f3;
+  border-color: #4474f3;
+  color: #fff;
+  border-radius: 10px;
+  transform: scale(1.05);
+}
+
+
+.contact {
+  background-color: #f6f6f6;
+}
+
+.contact h2 {
+  color: #3b3e41;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.contact span {
+  color: #4474f3;
+}
+
+.contact p {
+  font-weight: normal;
+  font-size: 20px;
+}
+
+.contact .left-card {
+  background-image: url(assets/bgContact.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 640px;
+  border-radius: 20px;
+  width: 100%;
+}
+
+.card {
+  border-color: #f6f6f6;
+}
+
+.left-card h4 {
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.left-card .bottom {
+  position: absolute;
+  bottom: 10px;
+}
+
+.left-card .bottom h5 {
+  font-weight: bolder;
+  color: #fff;
+}
+
+.left-card p {
+  color: #fff;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+form {
+  color: #3b3e41;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.form-control {
+  border-color: #3b3e41 !important;
+}
+
+.form-control::placeholder {
+  color: #3b3e41;
+  font-weight: normal;
+  font-size: 14px;
+}
+
+.card {
+  border-radius: 10px;
+}
+
+.card form span {
+  color: red;
+  font-size: 14px;
+}
+
+form .btn {
+  background-color: #3b3e41;
+  color: #fff;
+  border-color: #3b3e41;
+  border-radius: 10px;
+  will-change: transform;
+  transition: 0.3s;
+}
+
+form .btn:hover {
+  background-color: #fff;
+  color: #3b3e41;
+  border-color: #3b3e41;
+  transform: scale(1.03);
+}
+
+footer h3 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #3b3e41;
+}
+
+footer span {
+  color: #4474f3;
+}
+
+footer p {
+  font-weight: 600;
+  font-size: 16px;
+  color: #3b3e41;
+}
+
+footer h2 {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+footer h5 {
+  color: #3b3e41;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+
+footer a {
+  text-decoration: none;
+  color: #3b3e41;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+footer ul {
+  padding: 0;
+  list-style: none;
+}
+
+footer a:hover {
+  color: #4474f3;
+  font-weight: bold;
+}
+
+.meer-info:hover {
+  border-bottom: 1px solid #4474f3 !important;
+  color: #4474f3 !important;
+  font-weight: bold;
+}
